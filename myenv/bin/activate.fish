@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV '/home/nibir/Desktop/py/ML and Data Science/DS project/Crop_Recommendation-main/myenv'
+set -gx VIRTUAL_ENV '/home/nibir/Desktop/py/ML/DS project/Crop_Recommendation/myenv'
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

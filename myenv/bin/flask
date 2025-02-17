@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/home/nibir/Desktop/py/ML and Data Science/DS project/Crop_Recommendation-main/myenv/bin/python3" "$0" "$@"
+'''exec' "/home/nibir/Desktop/py/ML/DS project/Crop_Recommendation/myenv/bin/python3" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
