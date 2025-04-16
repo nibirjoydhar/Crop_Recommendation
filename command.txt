@@ -1,0 +1,55 @@
+# ---------------------------------------------
+# 💻 ON YOUR LOCAL MACHINE
+# ---------------------------------------------
+
+# 1. Clone your GitHub repository
+git clone https://github.com/nibirjoydhar/Crop_Recommendation.git
+cd Crop_Recommendation
+
+# 2. Set up virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# 3. Install project dependencies
+pip install -r requirements.txt
+
+# 4. Run the app locally
+export FLASK_APP=app.py
+flask run  # Visit http://127.0.0.1:5000 in your browser
+
+# 5. Make any code or design changes using your editor
+code .  # Opens VS Code in this folder (or use your preferred editor)
+
+# 6. Add and commit changes
+git add .
+git commit -m "Update design or functionality"
+
+# 7. Push changes to GitHub
+git push origin main  # Replace 'main' with your branch name if different
+
+# ---------------------------------------------
+# ☁️ ON YOUR AWS EC2 INSTANCE (via SSH)
+# ---------------------------------------------
+
+# 8. Connect to your EC2 instance
+cd /path/to/your/pem/file
+chmod 400 crop_recommendation.pem
+ssh -i "crop_recommendation.pem" ubuntu@13.239.37.214
+
+# 9. Navigate to your project directory
+cd ~/Crop_Recommendation
+
+# 10. Pull the latest changes from GitHub
+git pull origin main
+
+# 11. Activate your virtual environment
+source venv/bin/activate
+
+# 12. Install any new dependencies
+pip install -r requirements.txt
+
+# 13. Run the Flask app (publicly accessible)
+export FLASK_APP=app.py
+flask run --host=0.0.0.0
+
+# ✅ Visit: http://13.239.37.214:5000 from your browser
