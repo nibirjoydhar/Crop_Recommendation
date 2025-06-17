@@ -119,8 +119,8 @@ For bug reports or feature suggestions, please open an issue in the GitHub repos
 ## Contact
 
 For any questions or support, please reach out to:
-- Email: support@croprecommendation.com
-- GitHub Issues: [Create an issue](https://github.com/yourusername/Crop_Recommendation/issues)
+- Email: nibirjoydhar@gmail.com
+- GitHub Issues: [Create an issue](https://github.com/nibirjoydhar/Crop_Recommendation/issues)
 
 ## License
 
